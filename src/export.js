@@ -38,7 +38,7 @@ const executeExport = () => {
         }
         colors[base][density] = swatch.color;
       }
-      resolve(colors);
     });
+    resolve(colors);
   });
 };
