@@ -1,0 +1,20 @@
+{
+  "$schema": "https://raw.githubusercontent.com/sketch-hq/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Import JSON Colors",
+      "identifier": "json-colors.import-identifier",
+      "script": "./import.js"
+    },
+    {
+      "name": "Export JSON Colors",
+      "identifier": "json-colors.export-identifier",
+      "script": "./export.js"
+    }
+  ],
+  "menu": {
+    "title": "Json Colors 😎",
+    "items": ["json-colors.import-identifier", "json-colors.export-identifier"]
+  }
+}
