@@ -24,9 +24,5 @@
     "@skpm/builder": "^0.7.0"
   },
   "author": "Mishal Alshuwaikhat <alshuwaikhat.mishal@gmail.com>",
-  "dependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/alshuwaikhat/sketch-json-colors.git"
-  }
+  "dependencies": {}
 }
